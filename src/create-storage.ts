@@ -1,11 +1,6 @@
 /**
  * @system storage
  * @status handwritten
- * @edit edit directly
- *
- * Factory function for creating managed storage namespaces. The public API
- * consumers call. Each namespace gets a key prefix, optional TTL, and
- * registers in the central StorageRegistry.
  */
 
 import { rawGet, rawKeys, rawRemove, rawSet } from "./client.ts";

@@ -1,11 +1,6 @@
 /**
  * @system storage
  * @status handwritten
- * @edit edit directly
- *
- * Central registry for all managed storage namespaces. Every createStorage()
- * call auto-registers here. Provides getAll(), disable(), enable() for
- * observability and debugging.
  */
 
 import type { StorageEntry } from "./types.ts";

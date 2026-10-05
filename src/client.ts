@@ -1,11 +1,6 @@
 /**
  * @system storage
  * @status handwritten
- * @edit edit directly
- *
- * SSR-safe browser localStorage wrapper. All reads return undefined during
- * server rendering; all writes are no-ops. Client-side reads/writes work
- * normally after hydration.
  */
 
 const isClient =

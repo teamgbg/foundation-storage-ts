@@ -1,10 +1,6 @@
 /**
  * @system storage
  * @status handwritten
- * @edit edit directly
- *
- * Type definitions for @teamscala/storage — unified browser localStorage
- * primitive with SSR-safe guards, key namespacing, and optional TTL.
  */
 
 export interface StorageOptions {

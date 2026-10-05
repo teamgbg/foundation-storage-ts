@@ -1,11 +1,6 @@
 /**
  * @system storage
  * @status handwritten
- * @edit edit directly
- *
- * Bootloader entry point for the storage primitive. Called by the
- * configurable_primitive boot chain with per-namespace overrides from
- * the config/storage-registry row.
  */
 
 import type { StorageOverride } from "./types.ts";
